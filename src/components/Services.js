@@ -1,11 +1,10 @@
+import Titles from './Titles';
+
 const Services = () => {
   return (
     <section className="section services" id="services">
-      <div className="section-title">
-        <h2>
-          our <span>services</span>
-        </h2>
-      </div>
+      <Titles title="Our" subtitle="Services" />
+
       <div className="section-center services-center">
         <article className="service">
           <span className="service-icon">
